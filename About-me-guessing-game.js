@@ -1,6 +1,8 @@
 var response, returnByFunction;
 var responseString ='';
 
+askQuestions();
+
 function askQuestions(){
   try {
     alert('Hi there. You will get multiple questions to guess things about me. Enter 0, if you want to close this anytime');
