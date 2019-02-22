@@ -13,7 +13,7 @@ function askQuestions(){
     alert(returnByFunction);
 
     response = parseFloat(prompt('What is my Weight (in lbs)?'));
-    returnByFunction = findMy('Weight',175.5,response);
+    returnByFunction = findMy('Weight',180,response);
     alert(returnByFunction);
 
     response = prompt('Do you want to know more about me? Answer Y or N');
