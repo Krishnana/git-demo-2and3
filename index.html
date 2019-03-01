@@ -3,31 +3,44 @@
     <!-- dependency management -->
     <head>
         <title>Guessing Game Demo</title>
-        <script src="About-me-guessing-game.js"></script>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <script src="About-me-guessing-game.js"></script>>
     </head>
     <body>
         <header>
-            <img id="LordKrishna" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Lord_Krishna_with_flute.jpg">       
-            <img id="LordKrishna" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Krishna_tells_Gota_to_Arjuna.jpg/1280px-Krishna_tells_Gota_to_Arjuna.jpg">
-            <h1 id = "Title">Name: Krishnan Ananthapadmanabhan</h1>
-            <p id = "Title">SDE Student</p>
+            <section>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Lord_Krishna_with_flute.jpg">       
+
+                <nav>
+                    <ul>
+                        <li><a href="https://github.com/Krishnana/git-demo-2and3/blob/master/About-me-guessing-game.js/">Projects</a></li>
+                        <li><a href="https://canvas.instructure.com/">Grade</a></li>
+                        <li><a href="#">Mentor/Sponsor</a></li>
+                        <li><a href="#">About Me</a></li>
+                    </ul>
+                </nav>
+            </section>
         </header>
         
         <main>
-            <h2 id = "Header">Projects:
-                <ul> 
-                    <li><a href="https://github.com/Krishnana/git-demo-2and3/blob/master/About-me-guessing-game.js/">Guessing Game GitHub</a></li>
-                    <li><a href="https://github.com/Krishnana/git-demo-2and3/blob/master/for-loop.js/">For-Loop</a></li>
+            <section class="right">
+                <h2>About me</h2>
+                 <ul>
+                     <li>Krishnan Ananthapadmanabhan</li>
+                     <li>Application Engineer , PeopleTech</li>
+                     <li>kaananth@amazon.com</li>
+                     <li>SEA116-CO-Chr(Seattle, WA, US) (UTC -08:00), SEA116.08.930.B4</li>
+                     <li>+1-518-111-1111</li>
                 </ul>
-            </h2>           
+                <p> Worked in engineering and product management at Applied Materials and in management consulting at McKinsey & Company.[22]  Joined Google in 2004, where he led the product management and innovation efforts for a suite of Google's client software products, including Google Chrome[23] and Chrome OS, as well as being largely responsible for Google Drive. He went on to oversee the development of different applications such as Gmail and Google Maps.[24][25] On November 19, 2009,  gave a demonstration of Chrome OS; the Chromebook was released for trial and testing in 2011, and released to the public in 2012.[26] On May 20, 2010, he announced the open-sourcing of the new video codec VP8 by Google and introduced the new video format, WebM.[27] 
+                    On March 13, 2013,  added Android to the list of Google products that he oversees. Android was formerly managed by Andy Rubin.[28] He was a director of Jive Software from April 2011 to July 30, 2013.[29][30][31]. Was selected to become the next CEO of Google on August 10, 2015[11] after previously being appointed Product Chief by CEO, Larry Page. On October 24, 2015 he stepped into the new position at the completion of the formation of Alphabet Inc., the new holding company for the Google company family.[12][31][32]
+                    .Had been suggested as a contender for Microsoft's CEO in 2014, a position that was eventually given to Satya Nadella.[33][34]</p>
+                <button id="button" type="button" onclick="askQuestions()">Click to guess about me</button>  
+            </section>
         </main>
 
-        <form>
-            <form action="/action_page.php">
-                <button id="button" type="button" onclick="askQuestions()">Click to guess about me</button>  
-        </form>
-
+        <footer></footer>
     </body>
+    
 </html>
